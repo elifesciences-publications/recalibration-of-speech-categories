@@ -1,4 +1,3 @@
-
 % for each parameter set we run the 100 participants
 % they share the internal model, they receive different ordering of the
 % stimuli.
@@ -257,16 +256,6 @@ for irep = 1:nsubs % number of "subjects"/experiments
         n8 = n8_tem(2)/sum(n8_tem)*100;
                 
         
-%         %--------------------------------------------        
-%         n_recog = [sum((b(ind_Ab)==1)) sum((b(ind_Ab)==2)) sum((b(ind_Ab)==3));
-%             sum((b(ind_Ad)==1)) sum((b(ind_Ad)==2)) sum((b(ind_Ad)==3));
-%             sum((b(ind_Ag)==1)) sum((b(ind_Ag)==2)) sum((b(ind_Ag)==3));
-%             sum((b(ind_VbAb)==1)) sum((b(ind_VbAb)==2)) sum((b(ind_VbAb)==3));
-%             sum((b(ind_VgAb)==1)) sum((b(ind_VgAb)==2)) sum((b(ind_VgAb)==3));
-%             sum((b(ind_VgAg)==1)) sum((b(ind_VgAg)==2)) sum((b(ind_VgAg)==3))];
-%         prop_recog = n_recog/length(ind_Ab)*100;
-%     % --------------------------------------------
-    
     
     n_panel(irep,:) = [N2,N1,N4,N3 N6 N5 N8 N7];
     n2_panel(irep,:) = [n2_tem(2) n1_tem(2) n4_tem(2) n3_tem(2) ...
