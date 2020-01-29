@@ -1,4 +1,3 @@
-
 %% MODEL PARAMETERS 
 clear all; close all;
 % the columns stand for
@@ -89,9 +88,6 @@ vals_4 = sig_vals(:,4);
 disp(['number of simus: ' num2str(length(vals_1))])
 
 % run the simus 
-%load recursive_bayes_input
-%load profiles_temp % overwrites the profiles.
-
 disp('************       ***************')
 
 
