@@ -1,6 +1,7 @@
 This projects is the companion code for the manuscript:  
 "Integrating prediction errors at two time scales permits rapid recalibration of speech sound categories"
 by Itsaso Olasagasti and Anne-Lise Giraud, University of Geneva.
+(https://elifesciences.org/articles/44516)
 
 It includes the files used to simulate a speech recalibration experiment.
 
